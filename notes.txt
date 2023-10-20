@@ -1,0 +1,20 @@
+pip freeze > requirements.txt
+
+pip uninstall -r requirements.txt -y
+
+git config --global user.name "Seu Nome"
+git config --global user.email "seu@email.com"
+
+git init
+
+git status
+
+git add .
+
+git commit -m "Sua mensagem de commit aqui"
+
+git push origin main
+
+Baixar repositório no pc
+
+git clone https://github.com/Wallas-Reis/pybi.git
